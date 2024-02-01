@@ -27,4 +27,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Push Docker image to Docker Hub
-      run: docker push your-docker-username/react-app
+      run: docker push hboutinkhar/react-app
